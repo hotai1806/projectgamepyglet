@@ -22,6 +22,7 @@ def on_draw():
                               frames[int(counter)].width,
                               frames[int(counter)].height)
 
+
 frames = load_anim()
 pyglet.clock.schedule_interval(update_frames,1/10.0)
 pyglet.app.run()
